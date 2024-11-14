@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=73 format=3 uid="uid://5rymabcw2l7g"]
+[gd_resource type="Theme" load_steps=82 format=3 uid="uid://5rymabcw2l7g"]
 
 [ext_resource type="Texture2D" uid="uid://6ntlwgxuyct7" path="res://addons/CarbonDesignSystem/Icons/Checkbox.svg" id="1_5d7il"]
 [ext_resource type="Texture2D" uid="uid://ch03jyhbb4omx" path="res://addons/CarbonDesignSystem/Icons/CheckboxChecked.svg" id="1_ltg6p"]
@@ -218,6 +218,12 @@ border_color = Color(0.552941, 0.552941, 0.552941, 1)
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6ios8"]
 bg_color = Color(0.878431, 0.878431, 0.878431, 1)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nqpni"]
+bg_color = Color(0.776471, 0.776471, 0.776471, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kwxxh"]
+bg_color = Color(0.0588235, 0.384314, 0.996078, 1)
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vjuol"]
 content_margin_left = 16.0
 bg_color = Color(0.223529, 0.223529, 0.223529, 1)
@@ -385,6 +391,7 @@ bg_color = Color(0.956863, 0.956863, 0.956863, 1)
 bg_color = Color(0.878431, 0.878431, 0.878431, 1)
 border_width_left = 4
 border_color = Color(0.0588235, 0.384314, 0.996078, 1)
+expand_margin_left = 16.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7xqmc"]
 bg_color = Color(0.878431, 0.878431, 0.878431, 1)
@@ -393,6 +400,42 @@ border_width_top = 2
 border_width_right = 2
 border_width_bottom = 2
 border_color = Color(0.0588235, 0.384314, 0.996078, 1)
+expand_margin_left = 16.0
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_r0atp"]
+color = Color(0.0588235, 0.384314, 0.996078, 1)
+thickness = 2
+vertical = true
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_wctv2"]
+color = Color(0.0588235, 0.384314, 0.996078, 1)
+thickness = 2
+vertical = true
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_v74rl"]
+color = Color(0.0588235, 0.384314, 0.996078, 1)
+thickness = 2
+vertical = true
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_qot2v"]
+color = Color(0.776471, 0.776471, 0.776471, 1)
+thickness = 3
+vertical = true
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_vowpp"]
+color = Color(0.0862745, 0.0862745, 0.0862745, 1)
+thickness = 2
+vertical = true
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_n68ym"]
+color = Color(0.0588235, 0.384314, 0.996078, 1)
+thickness = 2
+vertical = true
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_1nwhk"]
+color = Color(0.776471, 0.776471, 0.776471, 1)
+thickness = 2
+vertical = true
 
 [resource]
 default_font = ExtResource("1_ta1uh")
@@ -474,6 +517,8 @@ OptionButton/styles/hover = SubResource("StyleBoxFlat_c2iyr")
 OptionButton/styles/normal = SubResource("StyleBoxFlat_0qog1")
 OptionButton/styles/pressed = SubResource("StyleBoxFlat_cubxy")
 PanelContainer/styles/panel = SubResource("StyleBoxFlat_6ios8")
+ProgressBar/styles/background = SubResource("StyleBoxFlat_nqpni")
+ProgressBar/styles/fill = SubResource("StyleBoxFlat_kwxxh")
 SecondaryBtn/base_type = &"Button"
 SecondaryBtn/styles/focus = SubResource("StyleBoxFlat_vjuol")
 SecondaryBtn/styles/hover = SubResource("StyleBoxFlat_77xll")
@@ -516,3 +561,12 @@ Tree/styles/focus = SubResource("StyleBoxFlat_yte0s")
 Tree/styles/panel = SubResource("StyleBoxFlat_80dxc")
 Tree/styles/selected = SubResource("StyleBoxFlat_dyb1l")
 Tree/styles/selected_focus = SubResource("StyleBoxFlat_7xqmc")
+VScrollBar/styles/grabber = SubResource("StyleBoxLine_r0atp")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxLine_wctv2")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxLine_v74rl")
+VScrollBar/styles/scroll = SubResource("StyleBoxLine_qot2v")
+VSlider/icons/grabber = ExtResource("5_u2nlw")
+VSlider/icons/grabber_highlight = ExtResource("6_e6j7n")
+VSlider/styles/grabber_area = SubResource("StyleBoxLine_vowpp")
+VSlider/styles/grabber_area_highlight = SubResource("StyleBoxLine_n68ym")
+VSlider/styles/slider = SubResource("StyleBoxLine_1nwhk")
