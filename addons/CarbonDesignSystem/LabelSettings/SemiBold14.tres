@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://snan4bpw3qcc"]
+
+[ext_resource type="FontFile" uid="uid://c5bcs0p34smv0" path="res://addons/CarbonDesignSystem/Fonts/IBMPlexSans-SemiBold.otf" id="1_gnucv"]
+
+[resource]
+font = ExtResource("1_gnucv")
+font_size = 14
+font_color = Color(0.0862745, 0.0862745, 0.0862745, 1)

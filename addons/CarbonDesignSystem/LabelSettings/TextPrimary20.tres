@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://dkesgi6d322o6"]
+
+[ext_resource type="FontFile" uid="uid://wdmopjs77sla" path="res://addons/CarbonDesignSystem/Fonts/IBMPlexSans-Regular.otf" id="1_mycgn"]
+
+[resource]
+font = ExtResource("1_mycgn")
+font_size = 20
+font_color = Color(0.321569, 0.321569, 0.321569, 1)
