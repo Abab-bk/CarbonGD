@@ -4,6 +4,10 @@ Carbon Design System, now in Godot!
 
 Add a theme "Carbon.tres" file based on [Carbon Design System]("https://carbondesignsystem.com") in project/addons/CarbonDesignSystem directory.
 
+## Notice!
+
+Still a WIP, many elements missing, it's not ready to production!
+
 ## Screenshots
 
 ![](Doc/Images/Image1.png)
